@@ -6,10 +6,234 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav>
+        <div class="navbar-container container">
+          <a class="logo" href="index.html">
+            <img src="./img/logo.svg" alt="site logo" />
+          </a>
+          <img class="bar" src="./img/bar.svg" alt="bar" />
+          <div class="nav-links">
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+          <button class="nav-btn">Get Started</button>
+        </div>
+      </nav>
+
+      <div class="hero container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="hero-text">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+
+          <div class="nav-btn hero-btn">Get Started</div>
+        </div>
+        <div class="hero-imgs">
+          <div class="kv-wrapper">
+            <img src="./img/kvadrat1.svg" alt="kvadrat 1" />
+            <img src="./img/kvadrat2.svg" alt="kvadrat 2" />
+          </div>
+          <img src="./img/kvadrat3.svg" alt="kvadrat 3" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about container">
+        <div class="left">
+          <h3 class="left-title">What’s different about Manage?</h3>
+          <p class="left-text">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <div class="right">
+          <div class="rows">
+            <div class="num">
+              <img src="./img/num.svg" alt="num-div" />
+              <p>01</p>
+            </div>
+            <div class="info">
+              <div class="title-wrapper">
+                <div class="num2">
+                  <img src="./img/num.svg" alt="num-div" />
+                  <p>01</p>
+                </div>
+                <h5>Track company-wide progress</h5>
+              </div>
+              <p>
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+          <div class="rows">
+            <div class="num">
+              <img src="./img/num.svg" alt="num-div" />
+              <p>02</p>
+            </div>
+            <div class="info">
+              <div class="title-wrapper">
+                <div class="num2">
+                  <img src="./img/num.svg" alt="num-div" />
+                  <p>02</p>
+                </div>
+                <h5>Track company-wide progress</h5>
+              </div>
+              <p>
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </div>
+          <div class="rows">
+            <div class="num">
+              <img src="./img/num.svg" alt="num-div" />
+              <p>03</p>
+            </div>
+            <div class="info">
+              <div class="title-wrapper">
+                <div class="title-wrapper">
+                  <div class="num2">
+                    <img src="./img/num.svg" alt="num-div" />
+                    <p>03</p>
+                  </div>
+                  <h5>Track company-wide progress</h5>
+                </div>
+              </div>
+              <p>
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards-parent">
+        <h4 class="card-title">What they’ve said</h4>
+        <div class="cards-wrapper">
+          <div class="cards card1">
+            <img class="card-photo" src="./img/photo1.svg" alt="photo1" />
+            <div class="card-content">
+              <h5 class="card-name">Anisha Li</h5>
+              <p class="card-text">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+          </div>
+          <div class="cards card2">
+            <img class="card-photo" src="./img/photo2.svg" alt="photo2" />
+            <div class="card-content">
+              <h5 class="card-name">Anisha Li</h5>
+              <p class="card-text">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+          </div>
+          <div class="cards card3">
+            <img class="card-photo" src="./img/photo3.svg" alt="photo3" />
+            <div class="card-content">
+              <h5 class="card-name">Anisha Li</h5>
+              <p class="card-text">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+          </div>
+        </div>
+        <img class="dots" src="./img/dots.svg" alt="dots image" />
+        <button class="nav-btn card-btn">Get Started</button>
+      </section>
+    </main>
+    <footer>
+      <section class="middle">
+        <div class="container middle-container">
+          <h2 class="middle-title">Simplify how your team works today.</h2>
+          <div class="nav-btn middle-btn">Get Started</div>
+        </div>
+      </section>
+
+      <section class="last">
+        <div class="last-container container">
+          <div class="first-column">
+            <a href="index.html"
+              ><img src="./img/logo2.svg" alt="site logo"
+            /></a>
+            <div class="icons-wrapper">
+              <div class="icons facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="icons youtube">
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <div class="icons twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icons pint">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+              <div class="icons inst">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="second-column">
+            <div class="links1">
+              <a href="#">Home</a>
+              <a href="#">Pricing</a>
+              <a href="#">Products</a>
+              <a href="#">About Us</a>
+            </div>
+            <div class="links2">
+              <a href="#">Careers</a>
+              <a href="#">Community</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="third-column">
+            <div class="input">
+              <div class="hidden-footer">
+                <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Updates in your inbox…"
+              />
+              <h6 class="hidden">Please insert a valid email</h6>
+              </div>
+              <button class="footer-btn">Go</button>
+            </div>
+            <p class="footer-mini">Copyright 2020. All Rights Reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
