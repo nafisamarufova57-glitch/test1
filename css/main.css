@@ -307,7 +307,7 @@ main {
 }
 
 .cards {
-  width: 540px;
+  max-width: 540px;
   height: 220px;
   background-color: #fafafa;
   display: flex;
@@ -423,6 +423,9 @@ footer {
 
 .last-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .first-column {
@@ -430,6 +433,10 @@ footer {
   flex-direction: column;
   gap: 83px;
   margin-right: 132px;
+}
+
+.hidden-p {
+  display: none;
 }
 
 .facebook {
@@ -450,10 +457,6 @@ footer {
   background-color: var(--full-white);
   color: #1d1e25;
   border-radius: 50%;
-}
-
-.twitter {
-  color: var(#1d1e25);
 }
 
 .pint {
@@ -481,7 +484,7 @@ footer {
 }
 
 .links1 {
-  width: 255px;
+  max-width: 255px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -501,7 +504,7 @@ footer {
 }
 
 .links2 {
-  width: 255px;
+  max-width: 255px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -525,7 +528,9 @@ footer {
 }
 
 .input {
+  max-width: 272px;
   display: flex;
+  justify-content: space-between;
   gap: 8px;
   margin-bottom: 60px;
 
@@ -555,7 +560,6 @@ footer {
   color: var(--full-white);
 }
 
-/* Обычное состояние кнопки */
 .footer-btn {
   cursor: pointer;
   background-color: #f3603c;
@@ -632,6 +636,84 @@ footer {
 
   .middle-btn {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .last-container {
+    flex-direction: column-reverse;
+    gap: 54px;
+  }
+
+  .footer-mini {
+    display: none;
+  }
+
+  .input {
+    width: 327px;
+  }
+
+  .second-column {
+    gap: 106px;
+  }
+
+  .icons-wrapper {
+    height: 32px;
+    gap: 34px;
+  }
+
+  .first-column {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .hidden-p {
+    display: block;
+  }
+
+  .footer-logo {
+    width: 132px;
+  }
+
+  .facebook {
+    width: 22px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .youtube {
+    width: 22px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .twitter {
+    width: 22px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pint {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inst {
+    width: 15px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
